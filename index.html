@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contoh List HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .list-section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div><H1 align="center">Macam macam list</H1></div>
+
+    <div class="container">
+        <!-- Unordered List (Bullet Points) -->
+        <div class="list-section">
+            <h2>List Tidak Berurutan (Bullet Points)</h2>
+            <ul>
+                <li>Apel</li>
+                <li>Jeruk</li>
+                <li>Mangga</li>
+                <li>Pisang</li>
+            </ul>
+        </div>
+
+        <!-- Ordered List (Numbered) -->
+        <div class="list-section">
+            <h2>List Berurutan (Nomor)</h2>
+            <ol>
+                <li>Langkah Pertama</li>
+                <li>Langkah Kedua</li>
+                <li>Langkah Ketiga</li>
+                <li>Langkah Keempat</li>
+            </ol>
+        </div>
+
+        <!-- Nested List -->
+        <div class="list-section">
+            <h2>List Bersarang</h2>
+            <ul>
+                <li>Buah-buahan
+                    <ul>
+                        <li>Buah Tropis
+                            <ul>
+                                <li>Mangga</li>
+                                <li>Pisang</li>
+                            </ul>
+                        </li>
+                        <li>Buah Subtropis
+                            <ul>
+                                <li>Apel</li>
+                                <li>Jeruk</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Description List -->
+        <div class="list-section">
+            <h2>List Deskripsi</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Bahasa markup untuk membuat struktur halaman web</dd>
+                
+                <dt>CSS</dt>
+                <dd>Bahasa styling untuk mengatur tampilan halaman web</dd>
+                
+                <dt>JavaScript</dt>
+                <dd>Bahasa pemrograman untuk membuat web menjadi interaktif</dd>
+            </dl>
+        </div>
+
+        <!-- Custom List Style -->
+        <div class="list-section">
+            <h2>List dengan Style Kustom</h2>
+            <ul style="list-style-type: square;">
+                <li>Item dengan bullet kotak</li>
+                <li>Item dengan bullet kotak</li>
+            </ul>
+            
+            <ul style="list-style-type: circle;">
+                <li>Item dengan bullet lingkaran</li>
+                <li>Item dengan bullet lingkaran</li>
+            </ul>
+            
+            <ol type="A">
+                <li>Item dengan huruf besar</li>
+                <li>Item dengan huruf besar</li>
+            </ol>
+            
+            <ol type="i">
+                <li>Item dengan angka romawi kecil</li>
+                <li>Item dengan angka romawi kecil</li>
+            </ol>
+        </div>
+    </div>
+
+    <div><H1 align="center">Tabel</H1></div>
+    
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        </style>
+        <h2>Colspan</h2>
+        
+        <table style="width:100%">
+          <tr>
+            <th colspan="2">Nama Dan Menu</th>
+            <th>Harga</th>
+          </tr>
+          <tr>
+            <td>hapis</td>
+            <td>ncut berem</td>
+            <td>60.000</td>
+          </tr>
+          <tr>
+            <td>VIO</td>
+            <td>Kanjut badag</td>
+            <td>75.000</td>
+          </tr>
+        </table>
+        <h2>Rospawn</h2>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+            }
+        </style>
+        <table style="width:100%">
+            <tr style="text-align: center;">
+              <th>Nama</th>
+              <td>Nomor</td>
+            </tr>
+            <tr style="text-align: center;">
+              <th rowspan="2">Vio ganteng</th>
+              <td>0895366021932</td>
+            </tr>
+            <tr style="text-align: center;">
+              <td>0800000000000</td>
+            </tr>
+          </table>
+          <h2>Nested Table</h2>
+          <style>
+            table {
+              width: 100%;
+              border: 1px double;
+            }
+            </style>
+            <table>
+                <tr style="text-align: center;">
+                  <td>BPKB</td>
+                  <td>BPKB KE-
+                    <table>
+                      <tr style="text-align: center;">
+                        <td>BPKB 1</td>
+                      </tr>
+                      <tr>
+                        <td>BPKB 2</td>
+                      </tr>
+                      <tr>
+                        <td>BPKB 3</td>
+                      </tr>
+                      <tr>
+                        <td>BPKBl 4</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+         <div><H1 align="center">Format gambar</H1></div>
+
+         <div><H2>gif</H2></div>
+         <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2RhemxrbWxhcms0c2MxdmtqMjR5MHE1eTN3NzZhZmQxcDJxNDhlMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wr7oA0rSjnWuiLJOY5/giphy.gif">
+         <div><H2>pict</H2></div>
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2mB3PuLWgZ52vtDEBUHmhLdtFqpcRJsh6nw&s">
+         <div><H2>video</H2></div>
+         <video width="320" height="240" controls>
+            <source src="ssstik.io_1737000379659.mp4"video/mp4">
+         </video>
+         <div><H2>audio</H2></div>
+         <audio controls>
+            <source src="ssstik.io_1736410124895.mp3" type="audio/mpeg">
+         </audio>
+</body>
+</html>   
